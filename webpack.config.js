@@ -6,4 +6,26 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'serve'),
   },
+  mode: "development",
+    module: {
+        rules: [
+            {
+                test: /\.js$/i,
+                exclude: /node_modules/,
+                use: ["babel-loader"],
+            },
+            {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader", "postcss-loader"],
+            },
+        ]
+    },
+    devServer: {
+        port: 3000,
+        open: true,
+        hot: true,
+        historyApiFallback: {
+            index: 'document.html'
+        },
+    },
 } 
