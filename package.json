@@ -1,0 +1,15 @@
+{
+  "name": "transpik_landing",
+  "version": "1.0.0",
+  "description": "Landing page of the transpik API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rajitha kumara",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
