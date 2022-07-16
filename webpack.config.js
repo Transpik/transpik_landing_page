@@ -25,7 +25,7 @@ module.exports = {
         open: true,
         hot: true,
         historyApiFallback: {
-            index: "document.html",
+            index: "index.html",
         },
     },
 } 
