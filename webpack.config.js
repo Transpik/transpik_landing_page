@@ -1,10 +1,10 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  entry: './src/init.js',
+  entry: "./src/init.js",
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'serve'),
+    filename: "main.js",
+    path: path.resolve(__dirname, "serve"),
   },
   mode: "development",
     module: {
@@ -25,7 +25,7 @@ module.exports = {
         open: true,
         hot: true,
         historyApiFallback: {
-            index: 'document.html'
+            index: "document.html",
         },
     },
 } 
