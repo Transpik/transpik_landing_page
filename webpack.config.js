@@ -4,7 +4,7 @@ module.exports = {
   entry: "./src/init.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "serve"),
+    path: path.resolve(__dirname, "public"),
   },
   mode: "development",
     module: {
