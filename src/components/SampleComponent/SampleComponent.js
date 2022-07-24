@@ -7,7 +7,7 @@ class SampleComponent extends React.Component {
 
   render() {
     return (<div>
-      <h1>Sample Component</h1>
+      <h1 className="text-orange">Sample Component</h1>
     </div>);
   }
 }
