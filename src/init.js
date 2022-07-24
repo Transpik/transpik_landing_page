@@ -1,5 +1,6 @@
 import * as ReactDOM from "react-dom/client";
 import React from "react";
 import "./styles/main.css";
+import App from "./App";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<h1>Welcome to Transpik!</h1>);
+ReactDOM.createRoot(document.getElementById("root")).render(<App></App>);
