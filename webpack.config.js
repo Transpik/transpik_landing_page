@@ -18,6 +18,19 @@ module.exports = {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader", "postcss-loader"],
             },
+            {
+                test: /\.(png|jpg|gif)$/i,
+                use: [
+                  {
+                    loader: 'url-loader',
+                    options: {
+                      limit: 8192
+                    }
+                  }
+                ]
+            }
+
+
         ]
     },
     devServer: {
