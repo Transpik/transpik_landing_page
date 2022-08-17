@@ -2,15 +2,18 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SamplePage from "./pages/SamplePage";
 import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
     <Router>
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
         {/*<Route path="/" element={<Home/>}></Route>*/}
-        <Route path="/" element={<SamplePage />}></Route>
+        {/* <Route path="/" element={<SamplePage />}></Route> */}
+        <Route path="/" element={<Footer />}></Route>
       </Routes>
+      {/* <Footer /> */}
     </Router>
   );
 };
