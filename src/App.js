@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SamplePage from "./pages/SamplePage";
-import NavBar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer/Footer";
+// import NavBar from "./components/NavBar/NavBar";
+// import Footer from "./components/Footer/Footer";
+import SignUpPage from "./pages/SignUp/SignUp";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Routes>
         {/*<Route path="/" element={<Home/>}></Route>*/}
         {/* <Route path="/" element={<SamplePage />}></Route> */}
-        <Route path="/" element={<Footer />}></Route>
+        <Route path="/" element={<SignUpPage />}></Route>
       </Routes>
       {/* <Footer /> */}
     </Router>

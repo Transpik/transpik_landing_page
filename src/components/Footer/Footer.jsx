@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import Logo from "../../assets/FooterLogo.png";
 
-const index = () => {
+const footer = () => {
   const [mode, setMode] = useState("auto");
 
   return (
@@ -193,4 +193,5 @@ const index = () => {
     </div>
   );
 };
-export default index;
+
+export default footer;
