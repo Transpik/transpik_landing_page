@@ -1,5 +1,6 @@
 import React from "react";
-import SamplePage from "./pages/SamplePage";
+import NavBar from "./components/NavBar/NavBar";
+import { Outlet } from "react-router-dom";
 
 class App extends React.Component {
   constructor(props) {
@@ -7,10 +8,14 @@ class App extends React.Component {
   }
 
   render() {
-    return (<div>
-      <h1>Welcome to Transpik</h1>
-      <SamplePage></SamplePage>
-    </div>);
+    return (
+      <div className="bg-gradient-to-b from-[#FFF9F6]">
+        <div className="bg-white">
+          <NavBar navs={["Docs", "Pricing", "Tracking", "Downloads"]} logoText="Transpik" />
+        </div>
+        <Outlet />
+      </div>
+    );
   }
 }
 
