@@ -9,6 +9,7 @@ module.exports = {
         //black: "#000000",
         "white": "#FFFFFF", //background
         "dark-gray": "#333333", // main texts & heading 
+        "darkgray": "#333333",
         "secondary-dark_gray": "#5E5E5E", // para texts
         "light-gray": "#6C6C6C", // texts on light orange backgrounds
         "secondary-light-gray": "F5F5F5", // stroke color for white bg cards

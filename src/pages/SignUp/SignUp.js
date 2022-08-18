@@ -11,23 +11,34 @@ class SignUpPage extends React.Component {
     return (
       <div>
         <div className="bg-gradient-to-b from-orange-100 to-orange-0 h-96 w-full">
-          <div className="md:px-20 px-4 py-8"></div>
+          <div className="md:px-20 px-4 py-2"></div>
           <div className="w-full flex items-center justify-center my-12">
-            <div className="flex items-center w-9/12">
-              <div className="flex flex-col lg:flex-row w-full items-start lg:items-center rounded bg-white">
-                <div className="hidden lg:block h-0 lg:h-64">
+            <div className="flex items-center">
+              <div className="flex flex-col lg:flex-row w-full items-start rounded">
+                <div className="hidden lg:block h-0 lg:h-20">
                   <img
-                    className="block w-auto shadow rounded"
+                    className="block h-auto shadow rounded w-[30rem]"
                     src={Image}
                     alt="Image"
                   ></img>
                 </div>
-                <div className="h-64">
+                <div className="">
                   <div className="bg-white shadow rounded pt-12 pb-6 lg:px-12 px-8">
                     <p className="md:text-3xl text-xl font-bold leading-7 text-center text-gray-700">
-                      Let’s chat and get a quote!
+                      Create an account
                     </p>
-                    <div className="md:flex items-center mt-12">
+                    <div className="flex my-6">
+                      <p className="bg-orange-600 text-white rounded-full px-3 py-1 mr-6">
+                        1
+                      </p>
+                      <p className="bg-gray-300 text-white rounded-full px-3 py-1 mr-6">
+                        2
+                      </p>
+                      <p className="bg-gray-300 text-white rounded-full px-3 py-1 mr-6">
+                        3
+                      </p>
+                    </div>
+                    <div className="md:flex items-center mt-6">
                       <div className="md:w-72 flex flex-col">
                         <label className="text-base font-semibold leading-none text-gray-800">
                           Full Name
@@ -113,7 +124,7 @@ class SignUpPage extends React.Component {
                       privacy policy and how we use data as stated
                     </p>
                     <div className="flex items-center justify-end w-full">
-                      <button className="flex items-center mt-9 text-base font-semibold leading-none text-white py-4 px-6 bg-orange-500 rounded hover:bg-orange-600 focus:ring-2 focus:ring-offset-2 focus:ring-orange-700 focus:outline-none">
+                      <button className="flex items-center mt-8 text-base font-semibold leading-none text-white py-4 px-6 bg-orange-500 rounded hover:bg-orange-600 focus:ring-2 focus:ring-offset-2 focus:ring-orange-700 focus:outline-none">
                         <p>NEXT</p>
                         <FaArrowRight className="text-white text-lg ml-4" />
                       </button>
