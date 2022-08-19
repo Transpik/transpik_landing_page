@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class SignupCard extends React.Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class SignupCard extends React.Component {
           <img src={this.props.src} width="292px" height="215px" className="mb-9"></img>
           <p className="text-base text-dark-gray text-center">{this.props.description}</p>
         </div>
-        <div className="w-24 h-9 border-2 border-solid border-orange text-orange font-medium text-base rounded-lg flex justify-center items-center cursor-pointer mt-9 hover:bg-orange hover:text-white delay-100 ease-in">Sign Up</div>
+        <div className="w-24 h-9 border-2 border-solid border-orange text-orange font-medium text-base rounded-lg flex justify-center items-center cursor-pointer mt-9 hover:bg-orange hover:text-white delay-100 ease-in"><Link to="signup">Sign Up</Link></div>
       </div>
     );
   }
