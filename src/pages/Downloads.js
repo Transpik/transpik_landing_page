@@ -9,7 +9,6 @@ class Downloads extends React.Component {
   render() {
     return (
       <div className="flex flex-col items-center justify-center container align-middle w-full h-screen bg-secondary-light_orange">
-        <div class="nav-bar shadow-xl w-full h-14">navbar</div>
         <div className="flex flex-row items-center justify-around w-full h-screen">
           <div class="flex  items-center shadow-xl w-[380px] h-[380px] bg-orange rounded-full">
             {/* <img className='test w-[120px] h-[600px]' src={test} alt='iphone'></img> */}
