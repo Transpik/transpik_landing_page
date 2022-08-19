@@ -17,7 +17,7 @@ class NavBar extends React.Component {
             {this.navLinks}
           </ul>
         </div>
-        <div className="text-base text-orange bg-light-orange w-24 h-9 flex justify-center items-center rounded-lg cursor-pointer">Login</div>
+        <div className="text-base text-orange bg-light-orange w-24 h-9 flex justify-center items-center rounded-lg cursor-pointer"><Link to={"login"}>Login</Link></div>
       </nav>
     );
   }
