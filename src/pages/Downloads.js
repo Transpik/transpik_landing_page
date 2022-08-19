@@ -9,7 +9,7 @@ class Downloads extends React.Component {
   render() {
     return (
       <div>
-        <h1>Downloads Page</h1>
+        <h1>Downloads Page from imal</h1>
       </div>
     );
   }
