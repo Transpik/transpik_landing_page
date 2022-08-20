@@ -9,7 +9,7 @@ class Docs extends React.Component {
   render() {
     return (
       <div>
-        <h1>Docs Page</h1>
+        <h1>Docs Page hi</h1>
       </div>
     );
   }
