@@ -1,5 +1,6 @@
 import React from "react";
-import { Routes, Route, useNavigate, Navigate } from 'react-router-dom';
+// import { Routes, Route, useNavigate, Navigate } from 'react-router-dom';
+import Map from './Map';
 
 class Tracking extends React.Component {
   constructor(props) {
@@ -8,8 +9,9 @@ class Tracking extends React.Component {
 
   render() {
     const trackMe = () => {
-      // console.log("HI");
-      navigate('/Map');
+      console.log("HI");
+      <Map />
+      // navigate('/Map');
 
     }
     // const navigate = useNavigate();
