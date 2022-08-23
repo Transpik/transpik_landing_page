@@ -8,7 +8,7 @@ class Map extends React.Component {
                 {/* <div class="nav-bar shadow-xl w-full h-16 bg-white"></div> */}
                 <div className="grid grid-flow-col items-center justify-center w-full h-screen">
 
-                    <div class="flex flex-row shadow-xl  w-[700px] h-[450px] rounded-xl bg-green">
+                    <div class="flex flex-row shadow-xl  w-[700px] h-[450px] rounded-xl bg-white">
                         <div className="flex flex-col w-[350px] h-[450px]">
                             <div className="flex flex-row  h-[60px] justify-between gap-4 pt-2 pb-2">
                                 <div className="flex">
@@ -61,7 +61,7 @@ class Map extends React.Component {
                             </div>
                         </div>
                         <div className="flex flex-col items-center justify-center w-[350px] h-[450px]">
-                            <div className="w-[330px] h-[410px] bg-pink-400 rounded-md ">Map</div>
+                            <div className="flex items-center justify-center w-[330px] h-[410px] bg-secondary-orange rounded-md ">Map</div>
                         </div>
                     </div>
 
