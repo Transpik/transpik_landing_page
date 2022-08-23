@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import "./styles/main.css";
 import App from "./App";
+import Map from "./pages/Map";
 import { Home, Docs, Downloads, Pricing, Tracking, Signup, Login } from "./pages";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="tracking" element={<Tracking />}></Route>
         <Route path="signup" element={<Signup />}></Route>
         <Route path="login" element={<Login />}></Route>
+        <Route path="map" element={<Map />}></Route>
       </Route>
     </Routes>
   </BrowserRouter>
