@@ -35,7 +35,7 @@ class Tracking extends React.Component {
             </div>
             <div className="input_btn flex flex-row items-center justify-center border-2 w-[500px] h-[150px] ">
               <input className="input-area text-sm w-[220px] h-[50px] bg-red-50 rounded-md ml-9 border-slate-300 py-2 pl-3 hover:bg-orange-100 placeholder:italic outline-orange" placeholder="Order ID" />
-              <div className="track bg-orange hover:bg-red-500 w-[100px] h-[50px] rounded ml-4 text-white font-bold pt-3 pl-7"><Link to="/map">Track</Link></div>
+              <div className="track bg-orange hover:bg-red-500 w-[100px] h-[50px] rounded ml-4 text-white font-bold pt-3 pl-7"><Link to="/order">Track</Link></div>
               {/* <Link to="/map"> */}
               {/* <button className="track bg-orange hover:bg-red-500 w-[100px] h-[50px] rounded ml-4 text-white font-bold" onClick={() => trackMe}>Track</button> */}
               {/* </Link> */}
