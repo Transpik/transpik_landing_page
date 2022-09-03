@@ -14,12 +14,10 @@ class PricingPage extends React.Component {
           Ready to streamline delivery tasks with Transpik?{" "}
         </p>
 
-        {/* <div className="inline-block text-md text-left w-50 ml-96 mx-auto"> */}
           <select className="form-select block rounded-lg w-auto h-12 mx-auto bg-orange hover:bg-[#FFFFFF] font-medium text-center text-[#FFFFFF] hover:text-orange border-2 border-orange shadow-lg hover:border-orange text-sm py-3 px-9 mt-4">
             <option value="Delivery service"> Delivery service</option>
             <option value="E-commerce"> E-commerce</option>
           </select>
-        {/* </div> */}
 
         <div className="text-center">
           <UserCard
