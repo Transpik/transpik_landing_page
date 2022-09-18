@@ -9,7 +9,7 @@ class PricingPage extends React.Component {
 
   render() {
     return (
-      <div className="bg-gradient-to-b from-light-orange to-[#fff9f700]">
+      <div className="bg-gradient-to-b from-light-orange to-[#fff9f700] font-poppins">
         <p className="pt-16 text-2xl text-center">
           Ready to streamline delivery tasks with Transpik?{" "}
         </p>
@@ -23,7 +23,7 @@ class PricingPage extends React.Component {
           <UserCard
             content1="Basic"
             content2="30 days one time plan. "
-            content5="Suitable for newly deployed platforms or platforms having testing purposes. "
+            content5="Suitable for newly deployed platforms or testing purposes. "
             content3="$19"
             content4="Per 30 days"
           ></UserCard>

@@ -14,8 +14,9 @@ class Home extends React.Component {
     return (
       <div className="font-poppins text-dark-gray flex justify-between items-center container mx-auto mt-24">
         <div>
+          <p className="text-4xl font-bold">Power your deliveries</p> <br></br>
           <p className="w-[296px] text-xl font-normal">
-            Mauris volutpat facilisis ante, vitae consequat velit consectetur quis. Integer dapibus dolor eu mauris rhoncus, non ultrices augue interdum.
+          Delight customers, scale operations, and boost efficiency with the world's most advanced logistics software.
           </p>
           <div className="bg-orange w-[182px] h-12 rounded-lg flex justify-center items-center mt-16">
             <Link to="pricing" className="font-medium text-base font-poppins text-white">
