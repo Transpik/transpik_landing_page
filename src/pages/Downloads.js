@@ -1,4 +1,6 @@
 import React from "react";
+import phone from "../assets/phone.png";
+
 
 
 class Downloads extends React.Component {
@@ -11,6 +13,11 @@ class Downloads extends React.Component {
       <div className="flex flex-col items-center justify-center container align-middle w-full h-screen bg-secondary-light_orange">
         <div className="flex flex-row items-center justify-around w-full h-screen">
           <div class="flex  items-center shadow-xl w-[380px] h-[380px] bg-orange rounded-full">
+            <img
+              className = "block h-96 w-auto m-24"
+              src={phone}
+              alt="phone logo"
+            ></img>
             {/* <img className='test w-[120px] h-[600px]' src={test} alt='iphone'></img> */}
           </div>
           <div class="flex flex-col items-center shadow-xl w-[550px] h-[500px] bg-orange rounded-md">
