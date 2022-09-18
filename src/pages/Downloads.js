@@ -14,7 +14,7 @@ class Downloads extends React.Component {
         <div className="flex flex-row items-center justify-around w-full h-screen">
           <div class="flex  items-center shadow-xl w-[380px] h-[380px] bg-orange rounded-full">
             <img
-              className="block h-96 w-auto m-24"
+              className = "block h-96 w-auto m-24"
               src={phone}
               alt="phone logo"
             ></img>
