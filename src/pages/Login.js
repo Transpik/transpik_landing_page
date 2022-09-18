@@ -13,7 +13,8 @@ class Login extends React.Component {
   render() {
     return (
       <div className="container mx-auto flex justify-center mt-16 font-poppins">
-        <div className="rounded-2xl bg-white border border-solid p-9 border-secondary-light-gray w-[436px] flex flex-col items-center" style={{"box-shadow": "0px 10px 20px rgba(229, 229, 229, 0.3)"}}>
+        <div className="rounded-2xl bg-white border border-solid p-9 border-secondary-light-gray w-[436px] flex flex-col items-center" 
+              style={{"box-shadow": "0px 10px 20px rgba(229, 229, 229, 0.3)"}}>
           <div className="flex flex-col items-center mb-9">
             <h1 className="text-dark-gray text-xl font-medium mb-4">Login</h1>
             <p className="text-light-gray text-sm text-center w-2/3">You can login as a delivery service or an ecommerece platform.</p>

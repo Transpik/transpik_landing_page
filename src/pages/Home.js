@@ -17,7 +17,11 @@ class Home extends React.Component {
           <p className="w-[296px] text-xl font-normal">
             Mauris volutpat facilisis ante, vitae consequat velit consectetur quis. Integer dapibus dolor eu mauris rhoncus, non ultrices augue interdum.
           </p>
-          <div className="bg-orange w-[182px] h-12 rounded-lg flex justify-center items-center mt-16"><Link to="pricing" className="font-medium text-base font-poppins text-white">Check Pricing</Link></div>
+          <div className="bg-orange w-[182px] h-12 rounded-lg flex justify-center items-center mt-16">
+            <Link to="pricing" className="font-medium text-base font-poppins text-white">
+              Check Pricing
+            </Link>
+          </div>
         </div>
         <div className="flex">
           <SignupCard

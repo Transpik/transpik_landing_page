@@ -6,6 +6,7 @@ class PortalsOrders extends React.Component {
     handleSetting() {
         console.log("open Setting");
     }
+    
     render() {
         return (
             <div className="bg-light-orange w-full h-screen">
