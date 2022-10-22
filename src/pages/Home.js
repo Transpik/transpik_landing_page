@@ -147,48 +147,55 @@ class Home extends React.Component {
           Transpik's end-to-end route planning, dispatch, communication and analytics <br></br> platform handles the heavy lifting so you can focus on your customers.
         </div>
 
-        <div className="bg-rose-100">
-          <div className="font-semibold text-3xl mt-24 text-dark-gray ml-64">
+        <div className="bg-rose-100 flex mt-16 mb-10">
+          <div className="font-semibold text-3xl mt-8 text-dark-gray ml-64">
             <br></br>Streamline operations
+          
+            <div className="mt-8 text-xl text-gray-500 font-normal mt">
+            Take your delivery operations to the next level<br></br>  with advanced route optimization, AI-based <br></br> automated dispatch and ETAs, real-time <br></br> tracking and powerful analytics.
+            </div>
           </div>
-          <div className="ml-64 mt-8 text-xl text-gray-500">
-          Take your delivery operations to the next level<br></br>  with advanced route optimization, AI-based <br></br> automated dispatch and ETAs, real-time <br></br> tracking and powerful analytics.
-            <img
-                className = "block h-64 w-auto}"
+          <div>
+          <img
+                className = "block h-56 w-auto ml-60 mt-9"
                 src={stream_png}
+                alt="computer"
+            ></img> <br></br> <br></br>
+          </div>
+          <br></br>
+        </div>
+
+        <div className="flex">
+          <div>
+            <img
+                className = "block h-64 w-auto ml-56 mt-10"
+                src={mobile_app}
                 alt="computer"
             ></img>
           </div>
-          <br></br><br></br>
-        </div>
-
-        <div className>
           <div className="font-semibold text-3xl mt-2 text-dark-gray ml-96">
             <br></br>Delight customers
+            <div className="mt-8 text-xl text-gray-500 font-normal">
+            Automatic SMS notifications, accurate ETAs, <br></br> real-time driver tracking, proof-of-delivery and <br></br>feedback collection tools ensure every delivery is a <br></br>delightful experience.
+            </div> 
           </div>
-          <div className="ml-96 mt-8 text-xl text-gray-500 ">
-          Automatic SMS notifications, accurate ETAs, <br></br> real-time driver tracking, proof-of-delivery and <br></br>feedback collection tools ensure every delivery is a <br></br>delightful experience.
-          <img
-              className = "block h-64 w-auto"
-              src={mobile_app}
-              alt="computer"
-          ></img>
-          </div> 
           <br></br><br></br>
         </div>
 
-        <div className="bg-rose-100">
-          <div className="font-semibold text-3xl mt-24 text-dark-gray ml-64">
+        <div className="bg-rose-100 flex">
+          <div className="font-semibold text-3xl mt-10 text-dark-gray ml-64">
             <br></br>Integrate anything
+            <div className="mt-8 text-xl text-gray-500 font-normal">
+              Seamlessly connect your website, mobile app, online <br></br> ordering system, ERP or inventory management system with <br></br> our developer-friendly API.
+            </div> 
           </div>
-          <div className="ml-64 mt-8 text-xl text-gray-500">
-            Seamlessly connect your website, mobile app, online <br></br> ordering system, ERP or inventory management system with <br></br> our developer-friendly API.
-          <img
-              className = "block h-64 w-auto"
-              src={delivery}
-              alt="computer"
-          ></img>
-          </div> 
+          <div>
+            <img
+                className = "block h-56 w-auto ml-60 mt-10"
+                src={delivery}
+                alt="computer"
+            ></img> <br></br> <br></br>
+          </div>
           <br></br><br></br>
         </div>
 
