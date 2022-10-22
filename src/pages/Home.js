@@ -5,6 +5,25 @@ import delivery_png from "../assets/undraw_deliveries_2r4y.png";
 import stream_png from "../assets/stream.png";
 import mobile_app from "../assets/mobile-app.png";
 import delivery from "../assets/delivery.png";
+import grocery from "../assets/1.jpg";
+import pharmacy from "../assets/2.jpg";
+import reataurant from "../assets/3.jpg";
+import courier from "../assets/4.jpg";
+import furniture from "../assets/5.jpg";
+import construction from "../assets/6.jpg";
+import beverages from "../assets/7.jpg";
+import ecommerce from "../assets/9.jpg";
+import shopping from "../assets/10.jpg";
+import meals from "../assets/11.jpg";
+
+
+
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+//import { Carousel } from 'react-responsive-carousel';
+//import { Carousel } from 'better-react-carousel';
 import { Link } from "react-router-dom";
 
 
@@ -13,7 +32,14 @@ class Home extends React.Component {
     super(props);
   }
 
+
   render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 1 };
     return (
       <div className="font-poppins">
         <div className="text-dark-gray flex justify-between items-center container mx-auto mt-24">
@@ -48,6 +74,71 @@ class Home extends React.Component {
             Transpik is the trusted last mile delivery solution <br></br>for many companies including e-commerce, furniture, pharmacy and more. 
           </div> <br></br> <br></br>
         </div>
+
+        {/* <Carousel cols={2} rows={1} gap={10} loop>
+          <div>
+              <img src= {grocery} width="20%" />
+              <p className="legend">Grocery</p>
+         
+              <img src= {pharmacy} width="20%" />
+              <p className="legend">Pharmacy</p>
+          </div>
+          <div>
+              <img src="../assets/2.jpg" />
+              <p className="legend">Legend 3</p>
+          </div>
+        </Carousel> */}
+        <br></br> <br></br>
+        <div>
+          <Slider {...settings}>
+            <div>
+              <img src= {grocery} />
+              <p className="text-center">Grocery</p>
+            </div>
+            <div>
+              <img src= {pharmacy} />
+              <p className="text-center">Pharmacy</p>
+            </div>
+            <div>
+              <img src= {reataurant} />
+              <p className="text-center">Restaurant</p>
+            </div>
+            <div>
+              <img src= {courier} />
+              <p className="text-center">Courier</p>
+            </div>
+            <div>
+              <img src= {furniture} />
+              <p className="text-center">Furniture</p>
+            </div>
+            <div>
+              <img src= {construction} />
+              <p className="text-center">Construction</p>
+            </div>
+            <div>
+              <img src= {beverages} />
+              <p className="text-center">Beverages</p>
+            </div>
+            <div>
+              <img src= {ecommerce} />
+              <p className="text-center">E-commerce</p>
+            </div>
+            <div>
+              <img src= {shopping} />
+              <p className="text-center">Shopping</p>
+            </div>
+            <div>
+              <img src= {meals} />
+              <p className="text-center">Meals</p>
+            </div>
+            
+          </Slider>
+        </div>
+
+     
+
+
+            
 
         <div className="font-semibold text-5xl mt-24 text-dark-gray text-center">
           <br></br>A complete toolkit for last mile <br></br>delivery
