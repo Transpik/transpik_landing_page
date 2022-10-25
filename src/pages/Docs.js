@@ -12,7 +12,7 @@ class Docs extends React.Component {
 
   render() {
     return (
-      <div className="table-row bg-orange text-[#333333]">
+      <div className="table-row bg-[#ff9d5c] text-[#333333]">
         <DocMenu />
         
         <div className="table-cell h-full md:w-4/5 top-0 bg-light-orange">
